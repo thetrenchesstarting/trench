@@ -1,6 +1,6 @@
 /* client/script.js */
 import * as THREE from 'three';
-const socket = io();
+const socket = io('https://trench-uwsf.onrender.com');
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
